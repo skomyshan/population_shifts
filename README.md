@@ -28,7 +28,8 @@ The image below will help guide us through the entire project including the mach
 - Takes in data in from the provisional database
 - Outputs label(s) for input data***
 
-![Machine_Learning_Image](abc.png)
+<img width="546" alt="Group 6 Project Road Map" src="https://user-images.githubusercontent.com/95661553/166851156-37192ac8-a407-446c-a94f-0b8b9afdb5b5.png">
+
 
 ### Team Members and Roles
 
