@@ -5,16 +5,16 @@ This README is an overview of our final project and its various components. It s
 ### Presentation
 - Our sected topic: Impact of War on Countries Accross the World
 
-- Reason why we selected their topic: The impact of the Russia's invasion of Ukraine has been felt acorss the world and will only continue to cause waves as we move further into the conflict. We want to know how past wars and internal conflicts have effected the countries involved as well as those who are not as we try to prdict the impact in the coming years. 
+- Reason why we selected their topic: The impact of the Russia's invasion of Ukraine has been felt acorss the world and will only continue to cause waves as we move further into the conflict. We want to know how past wars and internal conflicts have effected the countries involved as well as those who are not as we try to prdict the impact across the world in the years to come. 
 
-- Description of our source of data: For our data we will be using a variety of data sources including, but not limited to, FAO, the World Bank, and the OCED. For more detail regarding the data and its purpose please see the Database section below.
+- Description of our source of data: For our data we will be using a variety of data sources including, but not limited to, the FAO, World Bank, and OCED. For more detail regarding the data and its purpose please see the Database section below.
 
 - Questions we hope to answer with the data: How does war and other military conflicts impact the counties involved as well as those who are not?
 
 
 ### Database
 
-Our database will contain a variety of annual, cross-national metrics which should give us a wide view of the health of a country. This includes the economy
+Our database will contain a variety of annual, cross-national metrics which should give us a wide view of the health of a country. 
 
 ***Team members present a provisional database that stands in for the final database and accomplishes the following:
 - Sample data that mimics the expected final database structure or schema
@@ -22,7 +22,7 @@ Our database will contain a variety of annual, cross-national metrics which shou
 
 ### Machine Learning Model
 
-The image below will help guide us through the entire project
+The image below will help guide us through the entire project including the machine learning model that we intend to use. This model will likeley be a supervised 
 
 ***Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 - Takes in data in from the provisional database
