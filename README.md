@@ -16,7 +16,7 @@ This README is a proposal for our final project and the various components inclu
 
 ### Database
 
-Our database will contain a variety of annual, cross-national metrics which should give us a comprehensive view of the health of a country. This data will be summarized by country, by year and will include everything from economic indicators (like import/export and inflation) to military expenditures to agrecultural output. The data will be connected via country codes and an internal cuntry id (primary key), as well as the year for the time series data. Due to the tabular structure of the data sources being used, our data will be organized using SQLite. This will also give us the ability to seamlessly interact with Tableau for the construction of our presentation.
+Our database will contain a variety of annual, cross-national metrics which should give us a comprehensive view of the health of a country. This data will be summarized by country, by year and will include everything from economic indicators (like import/export and inflation) to military expenditures to agrecultural output. The data will be connected via country codes and an internal country id (primary key), as well as the year for the time series data. Due to the tabular structure of the data sources being used, our data will be organized using SQLite. This will also give us the ability to seamlessly interact with Tableau for the construction of our presentation.
 
 
 ### Machine Learning Model
