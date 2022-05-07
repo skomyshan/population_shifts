@@ -9,7 +9,7 @@ This README is a proposal for our final project and the various components inclu
 
 - Reason why we selected their topic: The impact of Russia's invasion of Ukraine has been felt across the world and will only continue to cause waves as we move further into the conflict. We want to know how past wars and conflicts have affected the countries involved, as well as those who are not, as we try to predict the impact across the world in the years to come. 
 
-- Description of our source of data: For our data we will be using a variety of data sources including, but not limited to, the FAO, World Bank, and OCED. For more detail regarding the data and its purpose please see the Database section below.
+- Description of our source of data: For our data we will be using a variety of data sources including, but not limited to, the FAO, World Bank, and OECD. For more detail regarding the data and its purpose please see the Database section below.
 
 - Questions we hope to answer with the data: How does war and other military conflicts impact the countries involved as well as those who are not?
 
