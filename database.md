@@ -2,7 +2,18 @@
 
 ## Country data
 
-Table to store country data including id, name, country code.
+Table to store country data including:
+* ID
+* Name
+* Country code (2-character)
+* Country code (3-character).
+
+## Country statistics
+
+Data used for normalization.
+* Country ID
+* Year
+* Population
 
 ## List of wars
 
