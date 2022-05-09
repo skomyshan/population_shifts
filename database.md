@@ -8,6 +8,12 @@ Table to store country data including:
 * Country code (2-character)
 * Country code (3-character).
 
+Source: [ISO country codes](https://www.iso.org/obp/ui/#search)
+
+1. Copy data to CSV file
+2. Load into Pandas
+3. Save to SQLite database
+
 ## Country statistics
 
 Data used for normalization.
