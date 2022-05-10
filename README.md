@@ -48,3 +48,7 @@ Viz: The member in the Viz role will be responsible for the visualization techni
 ***Description of the communication protocols - Not sure what this is suposed to be***
 
 
+
+
+
+
