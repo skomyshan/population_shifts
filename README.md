@@ -45,7 +45,11 @@ X: The member in the X role will decide which technologies will be used for each
 
 Viz: The member in the Viz role will be responsible for the visualization techniques that will be used and ultimately integrated into the final project deliverable.
 
-***Description of the communication protocols - Not sure what this is suposed to be***
+***Description of the communication protocols 
+We are communictaing through:
+1. Slack Channel- We have formed a group on Slack with all the members.
+2. We have also exchanged phone numbers to expedite.
+3. Class Time- We are effectively utilizing the class time for planning our next steps.
 
 
 
