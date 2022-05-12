@@ -14,6 +14,7 @@
 - How does military spending affect a country's GDP?
 - How does military spending affect imports/exports?
 - How does military spending affect inflation?
+- Do other types of goverment spending have any significant impact on economic growth?
 
 ## Communication Protocols
 - Group Slack channel
@@ -54,7 +55,6 @@ Our database will contain a variety of annual, cross-national metrics which shou
 
 ### Visualization
 Will be using Tableau to create dashboards and study the impacts of war on various attributes across countries.
-
 
 ### Machine Learning Model
 
