@@ -4,7 +4,7 @@
 ### Analyzing global military spending and it's impact on the global economy.
 - Using a variety of tools, we will look analyze how military spending impacts GDP and overall economic growth.
 
-## Reason why we selected their topic
+## Reasons why we selected this topic
 - We want to build a model that will predict the strength of an economy as it pertains to military spending.
 - The impact of Russia's invasion of Ukraine has been felt across the world and will only continue to cause waves as we move further into the conflict. We want to know how past wars and conflicts have affected the countries involved, as well as those who are not, as we try to predict the impact across the world in the years to come. 
 
