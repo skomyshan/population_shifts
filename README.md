@@ -1,17 +1,51 @@
-### Final Project - Group 6 - Wartime Impact 
+# Predict the Wartime Impact 
+
+## Selected Topic
+### Analyzing global military spending and it's impact on the global economy.
+- Using a variety of tools, we will look analyze how military spending impacts GDP and overall economic growth.
+
+## Reason why we selected their topic
+- We want to build a model that will predict the strength of an economy as it pertains to military spending.
+- The impact of Russia's invasion of Ukraine has been felt across the world and will only continue to cause waves as we move further into the conflict. We want to know how past wars and conflicts have affected the countries involved, as well as those who are not, as we try to predict the impact across the world in the years to come. 
+
+## Description of the Source Data
+
+## Question we hope to answer with the data
+- How does military spending affect a country's GDP?
+- How does military spending affect imports/exports?
+- How does military spending affect inflation?
+
+## Communication Protocols
+- Group Slack channel
+- Utilizing classtime to effectively plan and work on code as a group
+- Exchanged phone numbers to expedite
+
+## Tools
+- Creating Database
+  - PostgreSQL
+- Connecting to DataBase
+  -
+- Analyzing Data
+  -
+- Machine Learning
+  -
+- Dashboard
+  - Tableau
+
+## Machine Learning Model
+
 
 Github Repository URL: https://github.com/skomyshan/wartime_impact
 
-This README is a proposal for our final project and the various components included. It starts with the topic that we will be exploring, including an overview of the main goals and hypotheses that we intend to answer. In order to explore this topic we devised a plan to utilize machine learning. As an overview of this plan we provide an outline of the database we plan to construct and the machine learning techniques that will be used to process this data. Finally, we end with our team members and the roles for each, understanding that these roles will shift throughout the life of the project.
-
 ### Presentation
-- Our selected topic: Impact of War on Countries Across the World
+- Our selected topic: The Impact of War on Global Economies
 
-- Reason why we selected their topic: The impact of Russia's invasion of Ukraine has been felt across the world and will only continue to cause waves as we move further into the conflict. We want to know how past wars and conflicts have affected the countries involved, as well as those who are not, as we try to predict the impact across the world in the years to come. 
+
 
 - Description of our source of data: For our data we will be using a variety of data sources including, but not limited to, the FAO, World Bank, and OECD. For more detail regarding the data and its purpose please see the Database section below.
 
 - Questions we hope to answer with the data: How does war and other military conflicts impact the countries involved as well as those who are not?
+- Is long-run economic growth affected by military spending? (Breaking the countries down into different income levels to see if the economic growth/military spending relationship affects wealthy countries differently than less wealthy countries).
 
 
 ### Database
@@ -25,6 +59,8 @@ Will be using Tableau to create dashboards and study the impacts of war on vario
 ### Machine Learning Model
 
 The image below will help guide us through the entire project including the machine learning model that we intend to use. At a high level, the model we will be using will be a supervised model that allows us to measure the impact that one variable (the presence of a war or conflict) has on various other variables, highlighting the variables that are most impacted. As we become more familiar with the data and our hypothesis developes, we will construct a more comprehensive plan for our machine learning. 
+
+Hypothesis: The 
 
 
 ### Team Members, Roles, and Communication Protocols
@@ -44,12 +80,6 @@ The image below will help guide us through the entire project including the mach
 **X**: The member in the X role will decide which technologies will be used for each step of the project.
 
 **Viz**: The member in the Viz role will be responsible for the visualization techniques that will be used and ultimately integrated into the final project deliverable.
-
-***Description of the communication protocols** 
-We are communicating through:
-1. Slack Channel- We have formed a group on Slack with all the members.
-2. We have also exchanged phone numbers to expedite.
-3. Class Time- We are effectively utilizing the class time for planning our next steps.
 
 
 
