@@ -67,9 +67,23 @@ Hypothesis: The
 	  - Google Sheets
 
 
-# Segment 2:
+## Segment 2:
 
+### Presentation
+- Please see the link below for the Google Slides document which outlines our project.
 
+### Git Hub
+- Outline of project
 
+### Machine Learning Model
+#### Description of Preliminary Data Processing
 
+#### Description of Preliminary Feature Engineering and Selection
 
+#### Explaination of Model Choice
+
+### Database
+- 
+
+### Dashboard
+- A model dashboard has been provided and outlines 
