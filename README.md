@@ -21,7 +21,7 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 - Do other types of goverment spending have any significant impact on economic growth?
 
 ### GitHub
-####Communication Protocols
+#### Communication Protocols
 - Group Slack channel will be used for most planning and communication
 - We plan to utilize classtime to efficiently discuss our project and work on code as a group
 - Additional communication will occur via our phones and the WhatsApp app when necessary
@@ -47,12 +47,12 @@ Hypothesis: The
 - Kurt Minges: X
 - Sophie Xue: Circle
 
-#### Role
-**Square**: The team member in the square role will be responsible for the repository.
-**Triangle**: The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
-**Circle**: The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
-**X**: The member in the X role will decide which technologies will be used for each step of the project.
-**Viz**: The member in the Viz role will be responsible for the visualization techniques that will be used and ultimately integrated into the final project deliverable.
+#### Roles
+- **Square**: The team member in the square role will be responsible for the repository.
+- **Triangle**: The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
+- **Circle**: The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
+- **X**: The member in the X role will decide which technologies will be used for each step of the project.
+- **Viz**: The member in the Viz role will be responsible for the visualization techniques that will be used and ultimately integrated into the final project deliverable.
 
 #### Tools
 - The following steps of our analysis will require various tools to be used. Our plan is to use the tools listed below to maximize efficiency and produce the best results.
