@@ -19,7 +19,7 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 #### Description of the Source Data
 - Our data was collected from the World Bank Data Catalog. The data catalog is a project by the World Bank "to provide a more effective means for capture, acquisition, curation, access and use of development-Data Catalog data throughout the World Bank Group." They collect data from various other, credited data catalogs (including, but not limited to the Microdata Library, EnergyData.Info, GFDRR, Finances and World Bank Open Data API) with the goal to "maximize the value and investment in data by increasing the potential for the data to be shared and reused, to minimize transaction costs in finding relevant data and data methodologies, and to prevent duplication." 
 
-From this source, we are have pulled the following metrics from World Developement Indicators (WDI) dataset for use in our predictive modeling:
+- From this source, we are have pulled the following metrics from World Developement Indicators (WDI) dataset for use in our predictive modeling:
 	- Population, total
 	- Inflation, consumer prices (annual %)
 	- Military expenditure (% of GDP)
