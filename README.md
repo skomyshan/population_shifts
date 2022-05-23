@@ -36,19 +36,11 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 	- How does GDP, a measure of a country's overall economic health, lead to changes in population?
 - Does the correlation between these variables and changes in population differ from country to country? Is there a stronger correlation when looking at larger countries? How about when comparing regions? 
 
-
-### GitHub
-#### Communication Protocols
-- Group Slack channel will be used for most planning and communication
-- We plan to utilize classtime to efficiently discuss our project and work on code as a group
-- Additional communication will occur via our phones and the WhatsApp app when necessary
-
 ### Machine Learning Model
 - The image below will help guide us through the entire project including the machine learning model that we intend to use. At a high level, the model we will be using will be a supervised model that allows us to measure the impact that the independent variables have on population measurements and which variables are most impactful. As we become more familiar with the data and our hypothesis continues to develop, we will construct a more comprehensive plan for our machine learning. 
 
 
 <img width="1092" alt="Group 6 Project Road Map (2)" src="https://user-images.githubusercontent.com/95661553/169725733-44c389c4-c5ee-4d8d-a6e0-7abf88910934.png">
-
 
 
 ### Database
