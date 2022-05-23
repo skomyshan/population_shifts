@@ -131,7 +131,7 @@ Have created placeholder Worksheets demonstrating correlations between:
 * Life Expectancy with Population
 * GDP with Population
 
-**Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country
+**Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country using data in excel sheets and machine learning models.
 
 #### The Tools Being Used
 - For our final presentation we plan to use a mixture of Tableau and Google Slides. Tableau will be used to create dashboards and a storyboard that can then be utilized in the Google Slides we create. We plan to walk the class through the Slides during our presentation. 
