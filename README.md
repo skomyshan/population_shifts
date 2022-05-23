@@ -119,6 +119,20 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 ### Dashboard
 - As requested, we have included overviews of our potential storyboard in the Google Slides presentation for Segment 2.
 
+**Link to Tableau Dashboard**: https://tabsoft.co/388OwYf
+
+For now, have copied all the six excels as data source.
+Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
+
+Have created placeholder Worksheets demonstrating correlations between:
+* Inflation with Population
+* Military Expenditure with Population
+* Exports with Population
+* Life Expectancy with Population
+* GDP with Population
+
+**Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country
+
 #### The Tools Being Used
 - For our final presentation we plan to use a mixture of Tableau and Google Slides. Tableau will be used to create dashboards and a storyboard that can then be utilized in the Google Slides we create. We plan to walk the class through the Slides during our presentation. 
 
