@@ -74,7 +74,9 @@ Will be using Tableau to create dashboards to study the impacts of various attri
 ## Segment 2:
 
 ### Presentation
-- Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+
+Link to Google Slides- https://bit.ly/39Kn2Zt
 
 
 ### Machine Learning
