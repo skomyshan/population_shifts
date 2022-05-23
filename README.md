@@ -66,13 +66,14 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 ### Visualization
 Will be using Tableau to create dashboards to study the impacts of various attributes on population. Google Slides will also be used for presentation purposes.
 
-Link to Google Slides- https://bit.ly/39Kn2Zt
+
 
 
 ## Segment 2:
 
 ### Presentation
-- Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+Link to Google Slides- https://bit.ly/39Kn2Zt
 
 
 ### Machine Learning
