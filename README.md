@@ -39,9 +39,7 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 ### Machine Learning Model
 - The image below will help guide us through the entire project including the machine learning model that we intend to use. At a high level, the model we will be using will be a supervised model that allows us to measure the impact that the independent variables have on population measurements and which variables are most impactful. As we become more familiar with the data and our hypothesis continues to develop, we will construct a more comprehensive plan for our machine learning. 
 
-
 <img width="1092" alt="Group 6 Project Road Map (2)" src="https://user-images.githubusercontent.com/95661553/169725733-44c389c4-c5ee-4d8d-a6e0-7abf88910934.png">
-
 
 ### Database
 - Our database will contain a variety of annual, cross-national metrics which should give us a comprehensive view of the health of a country. This data will be summarized by country, by year and will include everything from economic indicators (like exports, GDP, and inflation) to military expenditures to life expectancy. The data will be connected via country codes and an internal country id (primary key), as well as the year for the time series data. Due to the tabular structure of the data sources being used, our data will be organized using SQLite. This will also give us the ability to seamlessly interact with Tableau for the construction of our presentation.
@@ -61,6 +59,8 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 
 ### Visualization
 Will be using Tableau to create dashboards to study the impacts of various attributes on population. Google Slides will also be used for presentation purposes.
+
+
 
 
 ## Segment 2:
