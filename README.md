@@ -113,8 +113,35 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 
 **Link to Tableau Dashboard**: https://tabsoft.co/388OwYf
 
+## Segment 2:
+
+**Presentation**
+
+Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+
+Link to Google Slides- https://bit.ly/39Kn2Zt
+
+
+**Dashboard**
+
+Link to Tableau Dashboard: https://tabsoft.co/388OwYf
+
 For now, have copied all the six excels as data source.
 Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
+
+Have created placeholder Worksheets demonstrating correlations between:
+* Inflation with Population
+* Military Expenditure with Population
+* Exports with Population
+* Life Expectancy with Population
+* GDP with Population
+
+**Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country
+
+=======
+For now, have copied all the six excels as data source.
+Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
+
 
 Have created placeholder Worksheets demonstrating correlations between:
 * Inflation with Population
