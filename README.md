@@ -46,7 +46,8 @@ Github Repository URL: https://github.com/skomyshan/wartime_impact
 ### Machine Learning Model
 - The image below will help guide us through the entire project including the machine learning model that we intend to use. At a high level, the model we will be using will be a supervised model that allows us to measure the impact that the independent variables have on population measurements and which variables are most impactful. As we become more familiar with the data and our hypothesis continues to develope, we will construct a more comprehensive plan for our machine learning. 
 
-![Roadmap](https://github.com/skomyshan/wartime_impact/blob/main/Group%206%20Project%20Road%20Map.png)
+<img width="1092" alt="Group 6 Project Road Map (1)" src="https://user-images.githubusercontent.com/95661553/169725117-cf861e2d-f480-42dd-82c6-b8bf16a714e7.png">
+
 
 
 ### Database
