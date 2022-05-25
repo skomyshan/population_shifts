@@ -1,7 +1,3 @@
-# Predicting Population Changes
-Github Repository URL: https://github.com/skomyshan/wartime_impact
-
-
 ## Segment 1:
 
 ### Presentation
