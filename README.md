@@ -25,12 +25,9 @@
 
 #### Question we hope to answer with the data
 - What are the measurements that strongly correlate to the change in a country's (or region's) population?
-	- How does inflation, and variable impacting inflation, affect the population?
-	- How does military spending forecast military conflicts and ultimately drive population changes?
-	- How do changes in a country's exports relate to their dependence on other countries and impact population changes?
-	- How does a country's life expectancy impact changes in their population?
-	- How does GDP, a measure of a country's overall economic health, lead to changes in population?
-- Does the correlation between these variables and changes in population differ from country to country? Is there a stronger correlation when looking at larger countries? How about when comparing regions? 
+- Can the variables of inflation (and variables impacting inflation), military spending (forecast proxy for military conflicts), exports and GDP (economic measures), and a country's life expectancy (a measure of a country's overall economic health) be used to effectively model population change from year to year in a country or across the world. 
+- Is there a grouping (of either countries or years) that would allow us to better predict population change and, if so, what are the groupings? What does this tell us about the variables that impact population. 
+
 
 ### Machine Learning Model
 - The image below will help guide us through the entire project including the machine learning model that we intend to use. At a high level, the model we will be using will be a supervised model that allows us to measure the impact that the independent variables have on population measurements and which variables are most impactful. As we become more familiar with the data and our hypothesis continues to develop, we will construct a more comprehensive plan for our machine learning. 
@@ -55,7 +52,6 @@
 
 ### Visualization
 Will be using Tableau to create dashboards to study the impacts of various attributes on population. Google Slides will also be used for presentation purposes.
-
 
 
 
@@ -104,52 +100,60 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 #### Database Contents
 - Our database will be responsible for holding the transformed data tables from each of the six variables that we will be utilizing. These tables will then be joined into one file using the country code and year primary keys to make the data file that will be ingested by the machine learning model.
 
+
 ### Dashboard
 - As requested, we have included overviews of our potential storyboard in the Google Slides presentation for Segment 2.
-
-**Link to Tableau Dashboard**: https://tabsoft.co/388OwYf
-
-## Segment 2:
-
-**Presentation**
-
-Please see the Google Slides presentation in our Github repo for a broader overview of our project.
-
-Link to Google Slides- https://bit.ly/39Kn2Zt
-
-
-**Dashboard**
+- For now, have copied all the six excels as data source. Have created placeholder Worksheets demonstrating correlations between:
+	* Inflation with Population
+	* Military Expenditure with Population
+	* Exports with Population
+	* Life Expectancy with Population
+	* GDP with Population
+- Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
+- **Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country using data in excel sheets and machine learning models.
 
 Link to Tableau Dashboard: https://tabsoft.co/388OwYf
-
-For now, have copied all the six excels as data source.
-Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
-
-Have created placeholder Worksheets demonstrating correlations between:
-* Inflation with Population
-* Military Expenditure with Population
-* Exports with Population
-* Life Expectancy with Population
-* GDP with Population
-
-**Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country
-
-=======
-For now, have copied all the six excels as data source.
-Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
-
-
-Have created placeholder Worksheets demonstrating correlations between:
-* Inflation with Population
-* Military Expenditure with Population
-* Exports with Population
-* Life Expectancy with Population
-* GDP with Population
-
-**Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country using data in excel sheets and machine learning models.
 
 #### The Tools Being Used
 - For our final presentation we plan to use a mixture of Tableau and Google Slides. Tableau will be used to create dashboards and a storyboard that can then be utilized in the Google Slides we create. We plan to walk the class through the Slides during our presentation. 
 
 #### Interactive Elements
 - Our vision is that the dashboard will allow users to select different countries or regions (via a drop-down box) to view the differences in the data, as well as the differences in the output from our machine learning model. All parts of our dashboard will update to reflect the country/region selected.
+
+
+
+## Segment 3:
+
+### Presentation
+Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+
+Link to Google Slides- https://bit.ly/39Kn2Zt
+
+
+### Machine Learning
+- Please see the Machine Learning subsection found in the Segment 2 section of the README for an overview of the following: 
+	- The data processing steps
+	- The feature engineering and selection process
+	- The splitting of the training and testing data
+	- The Explaination of our intitial model choice
+
+#### Explanation of Model Changes and Model Training Techniques
+- In an effort to try and increase the accuracy score of our model and to try and suss out additional insights, we decided to introduce an unsupervised machine learning component to our model. The unsupervised machine learning technique that we introduced was a 
+
+#### Description of Current Accuracy Score
+-
+
+<img width="1092" alt="Results from Initial ML" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_v1.png">
+
+<img width="1092" alt="ML Results for Class 0" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class0.png">
+
+<img width="1092" alt="ML Results for Class 1" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class1.png">
+
+#### Issues
+- 
+
+
+### Dashboard
+- 
+
+Link to Tableau Dashboard: https://tabsoft.co/388OwYf
