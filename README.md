@@ -134,4 +134,30 @@ Please see the Google Slides presentation in our Github repo for a broader overv
 Link to Google Slides- https://bit.ly/39Kn2Zt
 
 
-###
+### Machine Learning
+- Please see the Machine Learning subsection found in the Segment 2 section of the README for an overview of the following: 
+	- The data processing steps
+	- The feature engineering and selection process
+	- The splitting of the training and testing data
+	- The Explaination of our intitial model choice
+
+#### Explanation of Model Changes and Model Training Techniques
+- In an effort to try and increase the accuracy score of our model and to try and suss out additional insights, we decided to introduce an unsupervised machine learning component to our model. The unsupervised machine learning technique that we introduced was a 
+
+#### Description of Current Accuracy Score
+-
+
+<img width="1092" alt="Results from Initial ML" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_v1.png">
+
+<img width="1092" alt="ML Results for Class 0" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class0.png">
+
+<img width="1092" alt="ML Results for Class 1" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class1.png">
+
+#### Issues
+- 
+
+
+### Dashboard
+- 
+
+Link to Tableau Dashboard: https://tabsoft.co/388OwYf
