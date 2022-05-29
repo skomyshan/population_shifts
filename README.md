@@ -138,14 +138,31 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 	- The Explaination of our intitial model choice
 
 #### Explanation of Model Changes and Model Training Techniques
-- In an effort to try and increase the accuracy score of our model and to try and suss out additional insights, we decided to introduce an unsupervised machine learning component to our model. The unsupervised machine learning technique that we introduced was a 
+- In an effort to try and increase the accuracy score of our model and to try and suss out additional insights, we decided to introduce an unsupervised machine learning component to our model to try and group the individual data points in the master data set into groups. The technique chosen was k-means clustering.
+- Before performing the unsupervised learning, we needed to prepare the data to better visualize and work with the data. Therefore, we decided to reduce the data dimentionality of our database using PCA. PCA was used after standardizing the data with a Standard Scaler methodology to reduce the data to three principal components; PC 1, PC 2, and PC 3.
+- Next, we needed to determine the number of clusters to use for our k-means model. In other words, it helps us decide the number of unique groupings that will be best to separate the data into. To do this we ran and ploted the data's inertia (a multivariate measure of the amount of variation in a data set) when clustering in a range of groups from 1 to 11. The result can be found in the image below which is refered to as an elbow curve. To select the best number of clusters, we want t find the inflection point in the elbow curve. For this data that was particularly difficult with no obvious point where the rediuction in inertia significantly slows. We felt that k=5 and k=6 were the best points and decided to move forward with k=5. 
+
+<alt="k-means Elbow Curve" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/k-means_elbow_curve.png">
+
+- After deciding on k=5, we are able to build and fit the k-means model to predict the 5 clusters within the data. Once the model runs, we appended the class number onto the original dataset and created the visual below to review the groupings based on the three PCA components. 
+	- Reviewing the visual, it is clear that the clustering resulted in two large groups (labeled Class 0 and Class 1) and three smaller groupings consisting of 1 or two data points. Reviewing the results when run with k=6 and k=4, we see similar results with 2 main groupings.
+
+<alt="Clusters" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/cluster_results.png">
+
+- Downloading the data into an Excel file, we reviewed the classes in more detail to try and find a connection between the points that is more intuitive. First, we looked at each country and the split of the available data points to see if there are some countries that are almost exclusively in one class or another. Our hope was that the groupings would split the data by region or by economic standing (i.e., first vs third world countries), but there didn't seem to be any split like that. Our next review was of the years to see if there was a difference in the grouping based on year of the datapoint. Reviewing this, we did find that points were consistantly more likely to fall into Class 0 for more modern years (1990's through to 2020) with early years (prior to the 1970's) were more likely to call into Class 1. Unfortunately, we did not feel as thought these splits were significant enough for us to say that the groupings had a connection to the year of the data.
+	- For a review of the clusters, please see the file at the following link: 
+		- https://github.com/skomyshan/predicting_population_change/blob/main/resources/Cluster_Review.xlsx 
 
 #### Description of Current Accuracy Score
--
+- Initial Accuracy Score 
 
 <img width="1092" alt="Results from Initial ML" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_v1.png">
 
+- sssss
+
 <img width="1092" alt="ML Results for Class 0" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class0.png">
+
+-
 
 <img width="1092" alt="ML Results for Class 1" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class1.png">
 
