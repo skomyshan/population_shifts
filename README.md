@@ -4,7 +4,7 @@
 #### Selected Topic: Analyzing various country and regional metrics to estimate their correlation to population growth.
 - Using a variety of tools, we will look to analyze the factors that correlate to population growth. These factors include: 
 	- Inflation: Used to measure the value of a country's (or region's) currency and possible devaluation of it's population's assets
-	- Military Expnediture: Used as a proxy to measure the impact of military conflict
+	- Military Expenditure: Used as a proxy to measure the impact of military conflict
 	- Exports as a percentage of GDP: Used to measure the interconnectivity and reliance between countries
 	- Life expectancy at birth: Used as a proxy to measure the overall health of a country and the strength of their healthcare system at large
 	- GDP (Gross Domestic Product): Used to measure the overall health of the country's economy
@@ -26,7 +26,7 @@
 #### Question we hope to answer with the data
 - What are the measurements that strongly correlate to the change in a country's (or region's) population?
 - Can the variables of inflation (and variables impacting inflation), military spending (forecast proxy for military conflicts), exports and GDP (economic measures), and a country's life expectancy (a measure of a country's overall economic health) be used to effectively model population change from year to year in a country or across the world. 
-- Is there a grouping (of either countries or years) that would allow us to better predict population change and, if so, what are the groupings? What does this tell us about the variables that impact population. 
+- Is there a grouping (of either countries or years) that would allow us to better predict population change and, if so, what are the groupings? What does this tell us about the variables that impact population change. 
 
 
 ### Machine Learning Model
@@ -103,13 +103,13 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 
 ### Dashboard
 - As requested, we have included overviews of our potential storyboard in the Google Slides presentation for Segment 2.
-- For now, have copied all the six excels as data source. Have created placeholder Worksheets demonstrating correlations between:
+- For now, we have copied all the six excels as data sources. Have created placeholder Worksheets demonstrating correlations between:
 	* Inflation with Population
 	* Military Expenditure with Population
 	* Exports with Population
 	* Life Expectancy with Population
 	* GDP with Population
-- Since we have run the data using Machine Learning models now in segment 2, will be using that data further in next segment to create visualizations.
+- Since we have run the data using Machine Learning models now in segment 2, we will be using that data further in the next segment to create visualizations.
 - **Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country using data in excel sheets and machine learning models.
 
 Link to Tableau Dashboard: https://tabsoft.co/388OwYf
@@ -135,39 +135,45 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 	- The data processing steps
 	- The feature engineering and selection process
 	- The splitting of the training and testing data
-	- The Explaination of our intitial model choice
+	- The Explanation of our initial model choice
 
 #### Explanation of Model Changes and Model Training Techniques
 - In an effort to try and increase the accuracy score of our model and to try and suss out additional insights, we decided to introduce an unsupervised machine learning component to our model to try and group the individual data points in the master data set into groups. The technique chosen was k-means clustering.
-- Before performing the unsupervised learning, we needed to prepare the data to better visualize and work with the data. Therefore, we decided to reduce the data dimentionality of our database using PCA. PCA was used after standardizing the data with a Standard Scaler methodology to reduce the data to three principal components; PC 1, PC 2, and PC 3.
-- Next, we needed to determine the number of clusters to use for our k-means model. In other words, it helps us decide the number of unique groupings that will be best to separate the data into. To do this we ran and ploted the data's inertia (a multivariate measure of the amount of variation in a data set) when clustering in a range of groups from 1 to 11. The result can be found in the image below which is refered to as an elbow curve. To select the best number of clusters, we want t find the inflection point in the elbow curve. For this data that was particularly difficult with no obvious point where the rediuction in inertia significantly slows. We felt that k=5 and k=6 were the best points and decided to move forward with k=5. 
+- Before performing the unsupervised learning, we needed to prepare the data to better visualize and work with the data. Therefore, we decided to reduce the data dimensionality of our database using PCA. PCA was used after standardizing the data with a Standard Scaler methodology to reduce the data to three principal components; PC 1, PC 2, and PC 3.
+- Next, we needed to determine the number of clusters to use for our k-means model. In other words, it helps us decide the number of unique groupings that will be best to separate the data into. To do this we ran and plotted the data's inertia (a multivariate measure of the amount of variation in a data set) when clustering in a range of groups from 1 to 11. The result can be found in the image below which is referred to as an elbow curve. To select the best number of clusters, we want to find the inflection point in the elbow curve. For this data that was particularly difficult with no obvious point where the reduction in inertia significantly slows. We felt that k=5 and k=6 were the best points and decided to move forward with k=5. 
 
-<alt="k-means Elbow Curve" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/k-means_elbow_curve.png">
+<img width="1092" alt="k-means Elbow Curve" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/k-means_elbow_curve.png">
 
 - After deciding on k=5, we are able to build and fit the k-means model to predict the 5 clusters within the data. Once the model runs, we appended the class number onto the original dataset and created the visual below to review the groupings based on the three PCA components. 
 	- Reviewing the visual, it is clear that the clustering resulted in two large groups (labeled Class 0 and Class 1) and three smaller groupings consisting of 1 or two data points. Reviewing the results when run with k=6 and k=4, we see similar results with 2 main groupings.
 
-<alt="Clusters" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/cluster_results.png">
+<img width="1092" alt="Clusters" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/cluster_results.png">
 
-- Downloading the data into an Excel file, we reviewed the classes in more detail to try and find a connection between the points that is more intuitive. First, we looked at each country and the split of the available data points to see if there are some countries that are almost exclusively in one class or another. Our hope was that the groupings would split the data by region or by economic standing (i.e., first vs third world countries), but there didn't seem to be any split like that. Our next review was of the years to see if there was a difference in the grouping based on year of the datapoint. Reviewing this, we did find that points were consistantly more likely to fall into Class 0 for more modern years (1990's through to 2020) with early years (prior to the 1970's) were more likely to call into Class 1. Unfortunately, we did not feel as thought these splits were significant enough for us to say that the groupings had a connection to the year of the data.
+- Downloading the data into an Excel file, we reviewed the classes in more detail to try and find a connection between the points that is more intuitive. First, we looked at each country and the split of the available data points to see if there are some countries that are almost exclusively in one class or another. Our hope was that the groupings would split the data by region or by economic standing (i.e., first vs third world countries), but there didn't seem to be any split like that. Our next review was of the years to see if there was a difference in the grouping based on year of the datapoint. Reviewing this, we did find that points were consistently more likely to fall into Class 0 for more modern years (1990's through to 2020) with early years (prior to the 1970's) were more likely to call into Class 1. Unfortunately, we did not feel as thought these splits were significant enough for us to say that the groupings had a connection to the year of the data.
 	- For a review of the clusters, please see the file at the following link: 
 		- https://github.com/skomyshan/predicting_population_change/blob/main/resources/Cluster_Review.xlsx 
 
 #### Description of Current Accuracy Score
-- Initial Accuracy Score 
+- When running the initial supervised machine learning model, we were able to generate a accuracy score of .6143. In addition, please see the image below for the confusion matrix and classification report. 
 
 <img width="1092" alt="Results from Initial ML" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_v1.png">
 
-- sssss
+- While the accuracy score was reasonable, we introduced the unsupervised machine learning technique in hopes that the groups created by k-means clustering could be run separately and generate more accurate models.
+
+- Before running the models for the classes created, we needed to review the data to see which classes could be run through our model. Due to the sizes of classes 2, 3, and 4 being under ten data points in total, we knew that it would be fruitless to run the model as the training and testing sets would not be large enough to create a model that could be used in future years. Therefore, we only re-ran the model for classes 0 and 1. For reference, Class 0 contained 4,394 data points and Class 1 contained 2,880.
+
+- The results of the model for Class 0 can be found below. Although the accuracy score increased to a reasonable .6706, this accuracy score is driven by the fact that the model only produces a Population_Change output of 0, as one can see from the confusion matrix and the classification report for the output of 1. This means that the model is useless for predictive purposes. 
 
 <img width="1092" alt="ML Results for Class 0" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class0.png">
 
--
+- For the Class 1 model, the results are below. While this model did a better job in creating a model that predicts a Population_Change indicator of 0 and 1, it has a worse accuracy score than the original model at .5889. This is not accurate enough on its own to be used as a model and is worse than the original model, therefore, we would not choose to use this model over the original model. 
 
 <img width="1092" alt="ML Results for Class 1" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class1.png">
 
 #### Issues
-- 
+- Based on the results of the various supervised machine learning runs, it is clear that the data that we have makes it difficult to predict changes in population year-over-year. There are many reasons why this could be and we have listed these reasons below for review. 
+	- The original data for population change is tough to measure on its own due to the fact that more most countries, especially established ones like the US, it is rare that the population ever decreases. For less developed countries, who are more likely to see both population increases and decreases, data is less readily available and the accuracy of data is more suspect. Missing data led us to remove many years of datapoints associated with these types of countries. 
+		- We used the change in population percentage increase as our year-over-year indicator for the Population_Change variable. In reality, it may have been better to have created a more sophisticated measurement. One that looked at changes in the speed of the increases may have been more accurate.
 
 
 ### Dashboard
