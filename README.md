@@ -1,7 +1,3 @@
-# Predicting Population Changes
-Github Repository URL: https://github.com/skomyshan/predicting_population_change
-
-
 ## Segment 1:
 
 ### Presentation
