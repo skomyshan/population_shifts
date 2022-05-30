@@ -111,7 +111,7 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 ### Dashboard
 - As requested, we have included overviews of our potential storyboard in the Google Slides presentation for Segment 2.
 
-**Link to Tableau Dashboard**: https://tabsoft.co/388OwYf
+**Link to Tableau Dashboard**: https://tabsoft.co/38uDnku
 
 ## Segment 2:
 
