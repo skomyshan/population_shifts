@@ -112,6 +112,7 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 - Since we have run the data using Machine Learning models now in segment 2, we will be using that data further in the next segment to create visualizations.
 - **Next Step(s)** shall be to create Dashboards and story highlighting correlation between these variables and changes in population differ from country to country using data in excel sheets and machine learning models.
 
+Link to Tableau Dashboard**: https://tabsoft.co/38uDnku
 Link to Tableau Dashboard: https://tabsoft.co/38uDnku
 
 #### The Tools Being Used
@@ -119,7 +120,6 @@ Link to Tableau Dashboard: https://tabsoft.co/38uDnku
 
 #### Interactive Elements
 - Our vision is that the dashboard will allow users to select different countries or regions (via a drop-down box) to view the differences in the data, as well as the differences in the output from our machine learning model. All parts of our dashboard will update to reflect the country/region selected.
-
 
 
 ## Segment 3:
