@@ -169,21 +169,6 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 
 - For the Class 1 model, the results are below. While this model did a better job in creating a model that predicts a Population_Change indicator of 0 and 1, it has a worse accuracy score than the original model at .5889. This is not accurate enough on its own to be used as a model and is worse than the original model, therefore, we would not choose to use this model over the oringinal model. 
 
-- When running the initial supervised machine learning model, we were able to generate a accuracy score of .6143. In addition, please see the image below for the confusion matrix and classification report. 
-
-<img width="1092" alt="Results from Initial ML" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_v1.png">
-
-- While the accuracy score was reasonable, we introduced the unsupervised machine learning technique in hopes that the groups created by k-means clustering could be run separately and generate more accurate models.
-
-- Before running the models for the classes created, we needed to review the data to see which classes could be run through our model. Due to the sizes of classes 2, 3, and 4 being under ten data points in total, we knew that it would be fruitless to run the model as the training and testing sets would not be large enough to create a model that could be used in future years. Therefore, we only re-ran the model for classes 0 and 1. For reference, Class 0 contained 4,394 data points and Class 1 contained 2,880.
-
-- The results of the model for Class 0 can be found below. Although the accuracy score increased to a reasonable .6706, this accuracy score is driven by the fact that the model only produces a Population_Change output of 0, as one can see from the confusion matrix and the classification report for the output of 1. This means that the model is useless for predictive purposes. 
-
-<img width="1092" alt="ML Results for Class 0" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class0.png">
-
-- For the Class 1 model, the results are below. While this model did a better job in creating a model that predicts a Population_Change indicator of 0 and 1, it has a worse accuracy score than the original model at .5889. This is not accurate enough on its own to be used as a model and is worse than the original model, therefore, we would not choose to use this model over the original model. 
-
-
 <img width="1092" alt="ML Results for Class 1" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class1.png">
 
 #### Issues
@@ -192,11 +177,6 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 	- The original data for population change is tough to measure on its own due to the fact that more most countries, especially established ones like the US, it is rare that the population ever decreases. For less developed countries, who are more likely to see both population increases and decreases, data is less readibly available and the accuracy of data is more suspect. Missing data led us to remove many years of datapoints associated with these types of countries. 
 		- We used the change in population percentage increase as our year-over-year indicator for the Population_Change variable. In reality, it may have been better to have created a more sophisticated measurement. One that looked at changes in the speed of the increases may have been more accurate.
 	- We used many variables that
-
-- Based on the results of the various supervised machine learning runs, it is clear that the data that we have makes it difficult to predict changes in population year-over-year. There are many reasons why this could be and we have listed these reasons below for review. 
-	- The original data for population change is tough to measure on its own due to the fact that more most countries, especially established ones like the US, it is rare that the population ever decreases. For less developed countries, who are more likely to see both population increases and decreases, data is less readily available and the accuracy of data is more suspect. Missing data led us to remove many years of datapoints associated with these types of countries. 
-		- We used the change in population percentage increase as our year-over-year indicator for the Population_Change variable. In reality, it may have been better to have created a more sophisticated measurement. One that looked at changes in the speed of the increases may have been more accurate.
-
 
 
 ### Dashboard
