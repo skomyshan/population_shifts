@@ -163,7 +163,7 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 
 - Before running the models for the classes created, we needed to review the data to see which classes could be run through our model. Due to the sizes of classes 2, 3, and 4 being under ten data points in total, we knew that it would be fruitless to run the model as the training and testing sets would not be large enough to create a model that could be used in future years. Therefore, we only re-ran the model for classes 0 and 1. For reference, Class 0 contained 4,394 data points and Class 1 contained 2,880.
 
-- The results of the model for Class 0 can be found below. Although the accuracy score increased to a reasonable .6706, this accuracy score is driven by the fact that the model only produces a Population_Change output of 0, as one can see from the confusion matrix and the classification report for the output of 1. This measn that the model is useless for predictive purposes. 
+- The results of the model for Class 0 can be found below. Although the accuracy score increased to a reasonable .6706, this accuracy score is driven by the fact that the model only produces a Population_Change output of 0, as one can see from the confusion matrix and the classification report for the output of 1. This means that the model is useless for predictive purposes. 
 
 <img width="1092" alt="ML Results for Class 0" src="https://github.com/skomyshan/predicting_population_change/blob/main/resources/Machine_Learning_wClustering_Class0.png">
 
