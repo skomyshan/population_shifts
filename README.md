@@ -181,3 +181,25 @@ Link to Google Slides- https://bit.ly/39Kn2Zt
 
 ### Dashboard
 Link to Tableau Dashboard: https://public.tableau.com/app/profile/bhavna.aggarwal/viz/PopulationMetrics/PredictingPopulationMetrics
+
+
+## Segment 4:
+
+### Presentation
+Please see the Google Slides presentation in our Github repo for a broader overview of our project.
+
+Link to Google Slides- https://bit.ly/39Kn2Zt
+
+
+### Machine Learning
+- Please see the Machine Learning subsection found in the Segment 2 section of the README for an overview of the following: 
+	- The data processing steps
+	- The feature engineering and selection process
+	- The splitting of the training and testing data
+	- The explanation of our initial model choice
+	- The explanation of the changes that were made to the model for Segment 3
+	- The description of how the model was trained
+	- The description of accuracy scores
+
+#### Description of Confusion Matrix and Final Accuracy Score
+- 
